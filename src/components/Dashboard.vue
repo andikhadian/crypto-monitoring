@@ -36,7 +36,7 @@ export default {
     data() {
         return {
             loading: false,
-            baseApiUrl: 'http://localhost:3005/api',
+            baseApiUrl: 'https://cryptocurrency-monitoring.herokuapp.com/api',
             cryptosList: {},
             crypto: {
                 name: '',
